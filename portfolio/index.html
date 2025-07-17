@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - B.Tech Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar-nav" id="sidebarNav">
+        <div class="logo">
+            <a href="#hero">JS</a> </div>
+        <ul class="nav-links-sidebar">
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li> <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-folder-open"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </aside>
+
+    <main class="content-wrapper">
+        <section id="hero" class="hero">
+            <div class="hero-grid container">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span>Jetty Sanjana</span></h1>
+                    <p><b> B.Tech student</b></p>
+                    <a href="#projects" class="btn btn-primary">Explore My Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-image">
+                    <img src="image.jpg.jpg" alt="Your Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content-grid">
+                    <div class="about-text">
+                        <p><b>Hi there! I'm Jetty Sanjana, a 3rd B.Tech student specializing in Computer Science and Engineering at SRM University.</b></p>
+                        <p><b>My academic journey has provided me with a strong foundation in algorithms, data structures and a keen interest in applying theoretical knowledge to practical challenges. I thrive on problem-solving and am constantly expanding my technical skill set.</b></p>
+                    </div>
+                    <div class="about-vision">
+                        <h3>My Vision</h3>
+                        <p> To architect the future, one innovative solution at a time.
+I'm driven to transform challenges into technological breakthroughs.
+My purpose is to engineer systems that empower, connect, and elevate humanity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2>Education & Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Bachelor of Technology in CSE</h3>
+                        <p class="institution"><strong> SRM University </strong>, AP </p>
+                        <p class="dates">2023 – 2027</p>
+                        <p class="details">Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems etc..</p>
+                        </div>
+                    <div class="timeline-item">
+                        <h3>EDUNET Intern</h3>
+                        <p class="institution"><strong>EDUNET</strong></p>
+                        <p class="dates">JUNE – AUG</p>
+                        <p class="details">Contributed to the development of a web application, AIML using Python, HTML,CSS,JS.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Student Research Assistant</h3>
+                        <p class="institution"><strong>Researching in GEN AI & Prompt Engineering </strong></p>
+                        <p class="details">Creating a chatbot that works efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Programming Languages</h3>
+                        <p>Python, C++, Java, JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-tools"></i>
+                        <h3>Web Technologies & Frameworks</h3>
+                        <p>HTML5, CSS3, JavaScript (ES6+), React.js, Node.js, Express.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases & Cloud</h3>
+                        <p>MySQL, MongoDB, PostgreSQL, Basic AWS/Azure</p>
+                    </div>
+                     <div class="skill-item">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Tools & Version Control</h3>
+                        <p>Git, GitHub, VS Code </p>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Academic & Personal Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="pdf.png" alt="Project 1 Thumbnail">
+                        <div class="project-info">
+                            <h3>PDF Summerizer </h3>
+                            <p>Developed a PDF Summarizer Chatbot, a powerful tool designed to quickly extract key information from lengthy PDF documents. This project showcases my skills in Natural Language Processing (NLP) and integrating advanced AI models.
+
+The chatbot is built primarily with Python, leveraging the extensive capabilities of the Hugging Face Transformers library. I utilized a pre-trained Transformer model.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="churn.png" alt="Project 2 Thumbnail">
+                        <div class="project-info">
+                            <h3>Telecom Churn Prediction</h3>
+                            <p>This project predicts whether a telecom customer will leave using machine learning. The data is cleaned, visualized, and processed before training a Decision Tree Classifier for predictions.
+
+Key Features:
+
+Data preprocessing (handling missing values, encoding categorical data)
+Visualization of trends in customer behavior
+Training a Decision Tree model for churn prediction
+Evaluating performance with accuracy and recall</p>
+                        
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Connect With Me</h2>
+                <p>I am actively seeking internship opportunities for Software Development Engineer, Data Analyst and eager to contribute to innovative projects. Feel free to reach out!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.btech.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="I'd like to discuss an opportunity or collaboration..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sanjana-jetty-39781436a/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BvABz10V0SbqVKywtP7h%2F0w%3D%3D" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Sanjana28-a11y" target="_blank" title="GitHub Repositories"><i class="fab fa-github"></i></a>
+                    </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Jetty Sanjana. B.Tech Student Portfolio.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
